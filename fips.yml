@@ -1,0 +1,8 @@
+---
+imports:
+  cr:
+    git: https://github.com/fungos/cr.git
+  sokol:
+    git: https://github.com/floooh/sokol
+  sokol-tools-bin:
+    git: https://github.com/floooh/sokol-tools-bin
