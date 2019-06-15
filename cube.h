@@ -1,8 +1,8 @@
 /*
-	cube.h - includes & type definitions shared by host and guest
+    cube.h - includes & type definitions shared by host and guest
 
-	The app_state is allocated by the host, then passed as user data pointer
-	to both sokol_app and cr.
+    The app_state is allocated by the host, then passed as user data pointer
+    to both sokol_app and cr.
  */
 #pragma once
 
@@ -16,8 +16,8 @@
 typedef struct
 {
     float rx, ry;
-	sg_shader shd;
+    sg_shader shd;
     sg_pipeline pip;
     sg_bindings bind;
-	unsigned int version;
+    unsigned int version;
 } app_state_t;

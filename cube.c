@@ -1,6 +1,6 @@
 /*
-	This is a slightly modified copy of the "noentry-dll-sapp" sample.
-	see: https://github.com/floooh/sokol-samples/blob/master/sapp/noentry-dll-sapp.c
+    This is a slightly modified copy of the "noentry-dll-sapp" sample.
+    see: https://github.com/floooh/sokol-samples/blob/master/sapp/noentry-dll-sapp.c
  */
 
 
@@ -78,9 +78,9 @@ void init(void* user_data)
         .content = indices,
     });
 
-	/*
-		shader and pipeline objects are created by the guest library
-	*/
+    /*
+        shader and pipeline objects are created by the guest library
+    */
 
     /* setup resource bindings */
     state->bind = (sg_bindings) {
