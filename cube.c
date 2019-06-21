@@ -9,7 +9,8 @@
 
 #include "cube.h"
 
-#include "cube.glsl.h" // for vs_params_t, SLOT_vs_params
+#define SOKOL_SHDC_DECL // for vs_params_t, SLOT_vs_params
+#include "cube.glsl.h"
 
 void init(void* user_data)
 {
